@@ -1,0 +1,24 @@
+{
+  "name": "tsc-3",
+  "version": "3.0.3",
+  "bin": {
+    "tsc-3.0.3": "node_modules/typescript/bin/tsc",
+    "tsc-3.0": "node_modules/typescript/bin/tsc",
+    "tsc-3": "node_modules/typescript/bin/tsc"
+  },
+  "description": "Dummy typescript bin",
+  "main": "index.js",
+  "repository": "https://github.com/Alorel/tsc-3.x.git",
+  "author": "Alorel",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "3.0.3"
+  },
+  "bundledDependencies": [
+    "typescript"
+  ],
+  "devDependencies": {
+    "semver": "^5.5.1"
+  }
+}
