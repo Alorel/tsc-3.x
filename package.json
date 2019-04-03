@@ -1,9 +1,9 @@
 {
-  "name": "tsc-3",
-  "version": "3.0.3",
+  "name": "@alorel-personal/tsc-3",
+  "version": "3.4.1",
   "bin": {
-    "tsc-3.0.3": "node_modules/typescript/bin/tsc",
-    "tsc-3.0": "node_modules/typescript/bin/tsc",
+    "tsc-3.4.1": "node_modules/typescript/bin/tsc",
+    "tsc-3.4": "node_modules/typescript/bin/tsc",
     "tsc-3": "node_modules/typescript/bin/tsc"
   },
   "description": "Dummy typescript bin",
@@ -13,12 +13,12 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "typescript": "3.0.3"
+    "typescript": "3.4.1"
   },
   "bundledDependencies": [
     "typescript"
   ],
   "devDependencies": {
-    "semver": "^5.5.1"
+    "semver": "^6.0.0"
   }
 }
